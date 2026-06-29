@@ -1,0 +1,9 @@
+Python Notes: List, Nested List, Set, Dictionary, and Tuple
+
+Python provides different data structures to store and organize data. A List is an ordered and mutable collection that allows duplicate values. It is created using square brackets []. Example: fruits = ["Apple", "Banana", "Mango"]. A Nested List is a list that contains one or more lists inside it, making it useful for storing tables or matrices. Example: marks = [[90, 85], [78, 88], [95, 92]].
+
+A Set is an unordered collection of unique elements created using curly braces {}. It does not allow duplicate values. Example: numbers = {1, 2, 3, 4}. A Dictionary stores data in key-value pairs and is also created using curly braces. Keys must be unique, while values can be repeated. Example: student = {"Name": "Mahesh", "Age": 21, "Branch": "CSE"}. A Tuple is an ordered but immutable collection created using parentheses (). Once created, its values cannot be changed. Example: colors = ("Red", "Green", "Blue").
+
+Comparison: Lists and nested lists are ordered and mutable, sets are unordered and store only unique values, dictionaries organize data using key-value pairs, and tuples are ordered but immutable.
+
+Conclusion: Each Python data structure has a specific purpose. Lists are flexible, nested lists handle multi-dimensional data, sets remove duplicates, dictionaries store related information efficiently, and tuples are ideal for fixed data. Choosing the correct data structure improves program performance and readability.
